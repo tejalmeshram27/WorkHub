@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            /* background-color: cadetblue; */
+        }
+        body{
+            background: rgb(189, 188, 188); 
+        }
+        nav{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(118, 118, 118);
+            display: flex;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            align-items: center;
+            text-align: center;
+            
+        }
+        #logo{
+            height: 130px;
+            width: 350px;
+            margin-right: 60px;
+        }
+        nav a{
+            padding: 30px; 
+            font-size:x-large;
+            text-decoration: none;
+        }
+        /* nav a:visited{
+            color: red;
+        } */
+        nav input{
+            height: 30px;
+            width: 250px;
+            margin-left: 225px;
+            border-radius: 5px 5px 5px 5px;
+            text-align: center;
+            font-size:large;
+        }
+        table{
+            width: 1520px;
+            text-align: center;
+        }
+        #web-wrap{
+            background-color: rgb(189, 188, 188);
+        }
+        nav a:hover{
+            color: azure;
+        }
+        /* footer{
+            background-color: black;
+        } */
+        table{
+            width: 100%;
+        }
+        table, th, td{
+            border: 1px solid;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 2px 2px;
+        }
+        th{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="logo" src="./Workhub-Logo.svg" alt="Workhub" usemap="#logo">
+            <map name="logo">
+                <area shape="circle" coords="0,0,1000" href="./03_Home.html" alt="Workhub">
+            </map>
+                
+            <a href="./03_Home.html">Home</a>
+            <a href="./04_OrderPage.html">Order</a>
+            <a href="./05_AbouUs.html">About Us</a>
+            <a href="./06_ContactUs.html">Contact Us</a>
+            <input type="search" placeholder="Search here">
+        </nav>
+    </header>
+    <br><br>
+    <div id="web-wrap">
+        <table >
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Breakfast</th>
+                    <th>Veg/Non-Veg</th>
+                    <th>Lunch</th>
+                    <th>Veg/Non-Veg</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>3rd July</td>
+                    <td>Yes</td>
+                    <td>Veg</td>
+                    <td>Yes</td>
+                    <td>Non-Veg</td>
+                </tr>
+                <tr>
+                    <td>4th July</td>
+                    <td>No</td>
+                    <td>None</td>
+                    <td>Yes</td>
+                    <td>Veg</td>
+                </tr>
+                <tr>
+                    <td>5th July</td>
+                    <td>No</td>
+                    <td>None</td>
+                    <td>No</td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td>6th July</td>
+                    <td>Yes</td>
+                    <td>Veg</td>
+                    <td>Yes</td>
+                    <td>Veg</td>
+                </tr>
+                <tr>
+                    <td>7th July</td>
+                    <td>Yes</td>
+                    <td>Veg</td>
+                    <td>Yes</td>
+                    <td>Veg</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        
+    </footer>
+</body>
+</html>
